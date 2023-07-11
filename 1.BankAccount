@@ -1,0 +1,15 @@
+package com.lao.javaLearning_ArulPrasath;
+
+public class BankAccount {
+    Long accountNumber = 12345678901l; //Long is a wrapper class, the Long  class wraps a value of primitive type long in an obj
+    String holderName = "Priya";
+    Integer accountBalance = 1000000000;
+
+    public void getBalance(){
+        System.out.println("Priya Balance is: Rs." + accountBalance);
+}
+    public static void main(String[] args) {
+        BankAccount Account = new BankAccount();
+        Account.getBalance();
+        }
+    }
