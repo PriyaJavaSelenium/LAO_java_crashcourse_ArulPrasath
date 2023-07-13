@@ -1,0 +1,18 @@
+package com.lao.javaLearning_ArulPrasath;
+
+public class CollectAmount {
+    public Integer collectamount = 1000;
+    //public void collectAmountAndGiveItToMe(){ -> if it is void return type , there is no need to return anything or there will be nothing returned
+    public Integer collectAmountAndGiveItToMe(){
+        System.out.println("Daddy have collected Rupees " + collectamount);
+        return collectamount;
+    }
+
+    public static void main(String[] args) {
+        CollectAmount mySon = new CollectAmount();
+        Integer amount = mySon.collectAmountAndGiveItToMe();
+        System.out.println("Got the amount son " + amount);
+
+    }
+
+}
